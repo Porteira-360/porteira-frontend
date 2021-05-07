@@ -1,0 +1,32 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    background: #eee;
+    width: auto;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.loading {
+    background: none;
+    animation: is-rotating 1s infinite;
+    border: 6px solid #cccc;
+    border-radius: 50%;
+    border-top-color: #f7a40a;
+    height: 60px;
+    width: 60px;
+  }
+
+  .loading-container p {
+      margin: 0 10px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }

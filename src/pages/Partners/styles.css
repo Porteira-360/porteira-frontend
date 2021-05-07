@@ -1,0 +1,41 @@
+.partner-page {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: -50px;
+}
+
+.partner-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.partner-card img {
+    width: 300px;
+}
+
+@media (max-width: 800px) {
+    .partner-page {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .partner-card {
+        width: 90%;
+    }
+
+    .partner-card img {
+        width: 90%;
+    }
+    
+}

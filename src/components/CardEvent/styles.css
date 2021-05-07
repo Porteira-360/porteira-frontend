@@ -1,0 +1,24 @@
+.card-event-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--primary-color-font);
+}
+
+.card-event-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0 !important;
+    height: 100%;
+}
+
+.card-event-div button {
+    bottom: 0;
+}
+
+.access-now {
+    font-size: 14px;
+    background-color: rgb(253, 253, 123);
+    margin-top: 20px;
+
+}

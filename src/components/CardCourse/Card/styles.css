@@ -1,0 +1,33 @@
+.card-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 20px 10px;
+    height: auto;
+    border-radius: 10px;
+    background: #FFF;
+    border: 1px solid #ccc;
+}
+
+.card-image-container {
+    width: 100%;
+}
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-text-container {
+    width: 90%;
+    margin: 15px 0;
+}
+
+.card-text-container p {
+    text-align: justify;
+    font-weight: 400;
+    color: var(--color-font-gray);
+}
